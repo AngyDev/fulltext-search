@@ -1,0 +1,31 @@
+{
+  "name": "fulltext-search",
+  "version": "1.0.0",
+  "description": "Node elasticsearch docker project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngyDev/fulltext-search.git"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "elasticsearch"
+  ],
+  "author": "Angela Busato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngyDev/fulltext-search/issues"
+  },
+  "homepage": "https://github.com/AngyDev/fulltext-search#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.14.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
